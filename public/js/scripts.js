@@ -57,7 +57,7 @@ function applyNavigation() {
 }
 
 function applyClickEvent() {
-    $('a[href*=#]').on('click', function(e) {
+    $('a[href*=\\#]').on('click', function(e) {
         e.preventDefault();
         if ($($.attr(this, 'href')).length > 0) {
             $('html, body').animate({
