@@ -57,7 +57,7 @@ function applyNavigation() {
 }
 
 function applyClickEvent() {
-    $('a[href*=\\#]').on('click', function(e) {
+    $('a[href*=#]').on('click', function(e) {
         e.preventDefault();
         if ($($.attr(this, 'href')).length > 0) {
             $('html, body').animate({
@@ -78,7 +78,7 @@ function applyNavigationFixForPhone() {
 function applyScrollSpy() {
     $('#navbar-example').on('activate.bs.scrollspy', function() {
         window.location.hash = $('.nav .active a').attr('href').replace(
-            '\\#', '\\#/');
+            '#', '#/');
     });
 }
 
@@ -119,7 +119,7 @@ function applyResize() {
     /* HASH FUNCTION */
 
 function checkHash() {
-        lstrHash = window.location.hash.replace('\\#/', '\\#');
+        lstrHash = window.location.hash.replace('#/', '#');
         if ($('a[href=' + lstrHash + ']').length > 0) {
             $('a[href=' + lstrHash + ']').trigger('click');
         }
