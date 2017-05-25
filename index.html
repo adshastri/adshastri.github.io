@@ -1,10 +1,122 @@
-<html>
-  <head>
+<!--<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta content="text/javascript" http-equiv="content-script-type">
+  <meta content="text/css" http-equiv="content-style-type">
+  <meta content="nl" http-equiv="content-language">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content=
+  "I'm Aditya Shastri, a Rutgers student, full stack developer, and enthusiastic learner. "
+  name="description">
+  <meta content=
+  "Aditya Shastri, Website, Resume, Java programmer, Web developer, Full Stack Developer, Algorithms, Programming, Learning"
+  name="keywords">
+  <meta content="index, follow" name="robots">
+  <meta content="14 days" name="revisit-after">
+
+  <title>Aditya Shastri</title>
+
+  <link rel="stylesheet" href="public/css/bootstrap.css" />
+  <link rel="stylesheet" href="public/css/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="public/js/bootstrap.js"></script>
+  <script type="text/javascript" src="public/js/scripts.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+  <div class="jumbotron" id="home">
+    <ul class="info-list">
+      <li data-toggle="tooltip" data-placement="left" title="Linkedin" onclick="openLinkedin()">
+        <img src="http://www.iconsdb.com/icons/preview/black/linkedin-3-xxl.png" class="info-element" />
+      </li>
+      <li data-toggle="tooltip" data-placement="left" title="Github" onclick="openGithub()">
+        <img src="http://www.iconsdb.com/icons/preview/black/github-10-xxl.png" class="info-element"/>
+      </li>
+      <li data-toggle="tooltip" data-placement="left" title="Devpost" onclick="openDevpost()">
+        <img src="https://maxcdn.icons8.com/Share/icon/ios7/Logos//devpost_filled1600.png" class="info-element"/>
+      </li>
+      <li data-toggle="tooltip" data-placement="left" title="Resume" onclick="openResume()">
+        <img src="http://www.freeiconspng.com/uploads/resume-icon-png-10.png" class="info-element"/>
+      </li>
+    </ul>
+    <div class="container">
+      <p class="dark-green title-text" id="hello-text">
+        Hello! My name is
+      </p>
+      <h1 class="dark-green title-text" id="name-text" style="color:#114B5F">Aditya Shastri</h1>
+    </div>
+    <a class="scroll-down" href="#about">
+      <span class="glyphicon glyphicon-play down-arrow"></span>
+    </a>
+  </div>
+  <nav class="navbar navbar-default" id="navbar-example">
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-target=".navbar-ex1-collapse"
+      data-toggle="collapse" type="button"><span class="sr-only">Toggle
+        navigation</span> <span class="icon-bar"></span> <span class=
+        "icon-bar"></span> <span class="icon-bar"></span></button>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li class="active">
+            <a href="#about">About me</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="body-container">
+      <div id="about">
+        <div class="container">
+
+        </div>
+      </div>
+      <div id="education">
+        <div class="container">
+
+        </div>
+      </div>
+      <div id="portfolio">
+        <div class="container">
+
+        </div>
+      </div>
+      <div id="experience">
+        <div class="container">
+
+        </div>
+      </div>
+      <div id="contact">
+        <div class="container">
+
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <meta content="text/javascript" http-equiv="content-script-type">
     <meta content="text/css" http-equiv="content-style-type">
     <meta content="nl" http-equiv="content-language">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Aditya Shastri" name="author">
     <meta content=
     "I'm Aditya Shastri, a Rutgers student, full stack developer, and enthusiastic learner. "
     name="description">
@@ -13,40 +125,603 @@
     name="keywords">
     <meta content="index, follow" name="robots">
     <meta content="14 days" name="revisit-after">
-
     <title>Aditya Shastri</title>
-
-    <link rel="stylesheet" href="public/css/bootstrap.css" />
-    <link rel="stylesheet" href="public/css/styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="public/js/bootstrap.js"></script>
-    <script type="text/javascript" src="public/js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="jumbotron">
-      <ul class="info-list">
-        <li data-toggle="tooltip" data-placement="left" title="Linkedin" onclick="openLinkedin()">
-          <img src="http://www.iconsdb.com/icons/preview/black/linkedin-3-xxl.png" class="info-element" />
-        </li>
-        <li data-toggle="tooltip" data-placement="left" title="Github" onclick="openGithub()">
-          <img src="http://www.iconsdb.com/icons/preview/black/github-10-xxl.png" class="info-element"/>
-        </li>
-        <li data-toggle="tooltip" data-placement="left" title="Devpost" onclick="openDevpost()">
-          <img src="https://maxcdn.icons8.com/Share/icon/ios7/Logos//devpost_filled1600.png" class="info-element"/>
-        </li>
-        <li data-toggle="tooltip" data-placement="left" title="Resume" onclick="openResume()">
-          <img src="http://www.freeiconspng.com/uploads/resume-icon-png-10.png" class="info-element"/>
-        </li>
-      </ul>
-      <div class="container">
-        <p class="dark-green title-text" id="hello-text">
-          Hello! My name is
-        </p>
-        <h1 class="dark-green title-text" id="name-text">Aditya Shastri</h1>
-      </div>
-      <a class="scroll-down" href="#profile">
-        <span class="glyphicon glyphicon-play down-arrow"></span>
-      </a>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"
+    rel="stylesheet" type="text/css">
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+    <div class="jumbotron" id="top" style="height: 1116px;">
+        <div class="container">
+            <p>Hello! My name is</p>
+            <h1>Aditya Shastri</h1>
+        </div>
+        <ul class="info-list">
+          <li data-toggle="tooltip" data-placement="left" title="Linkedin" onclick="openLinkedin()">
+            <img src="http://www.iconsdb.com/icons/preview/black/linkedin-3-xxl.png" class="info-element" />
+          </li>
+          <li data-toggle="tooltip" data-placement="left" title="Github" onclick="openGithub()">
+            <img src="http://www.iconsdb.com/icons/preview/black/github-10-xxl.png" class="info-element"/>
+          </li>
+          <li data-toggle="tooltip" data-placement="left" title="Devpost" onclick="openDevpost()">
+            <img src="https://maxcdn.icons8.com/Share/icon/ios7/Logos//devpost_filled1600.png" class="info-element"/>
+          </li>
+          <li data-toggle="tooltip" data-placement="left" title="Resume" onclick="openResume()">
+            <img src="http://www.freeiconspng.com/uploads/resume-icon-png-10.png" class="info-element"/>
+          </li>
+        </ul>
+        <div class="overlay"></div><a class="scroll-down" href=
+        "#about"><span class="glyphicon glyphicon-play"></span></a>
     </div>
-  </body>
+    <nav class="navbar navbar-default" id="navbar-example">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-ex1-collapse"
+            data-toggle="collapse" type="button"><span class="sr-only">Toggle
+            navigation</span> <span class="icon-bar"></span> <span class=
+            "icon-bar"></span> <span class="icon-bar"></span></button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Sites + Contact</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+    <div class="background-white">
+        <div class="container" id="about">
+            <h2>About Me</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>About Me</h3>
+                    <p>I'm a computer science student at Rutgers University. I really
+                      enjoy learning new things and building cool projects, especially
+                      at hackathons. I'm really passionate about using computer science
+                      to solve issues in society. I work mostly with servers and web applications,
+                      but I have experience in many areas.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center"><img alt="Aditya Shastri"
+                height="246" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAj8AAAAJDBiYWY3Y2ZlLTkxYjAtNGEzOS1hMzhkLTI5YjgwMGM1OGEyZQ.jpg" width=
+                "246"></div>
+                <div class="col-md-4">
+                    <h3>Details</h3>
+                    <p><strong>Name:</strong><br>
+                    Aditya Shastri<br>
+                    <strong>Age:</strong><br>
+                    18 years old<br>
+                    <strong>Location:</strong><br>
+                    Plainsboro, NJ, USA</p><a class="btn btn-primary" href=
+                    "public/resume.pdf"
+                    target="_blank">Official Resume</a>
+                </div>
+            </div><strong>Interests:</strong> basketball, tennis, ping pong, football (sports!), hiking, outdoor activities
+        </div>
+    </div>
+
+      <div class="container" id="experience">
+          <h2>Experience</h2>
+
+          <div class="portfolio-element">
+              <span class="project-image">
+                <img src="https://media.glassdoor.com/sql/40260/viacom-squarelogo.png" />
+              </span>
+              <span class="project-info">
+                <div class="portfolio-element-title">
+                  <h3 class="portfolio-element-title-name">
+                    Software Engineering Intern
+                  </h3>
+                  <h4 class="portfolio-element-title-blurb">
+                    Viacom
+                  </h>
+                </div>
+                <p>
+                  I work in the Enterprise Architecture Department, which focuses on company wide systems
+                  and uses technologies like machine learning to enhance many aspects of the company including video streaming, user experience, and productivity.
+                </p>
+                <h4 class="portfolio-element-footnote">
+                  May 2017 - Present
+                </h>
+              </span>
+          </div>
+    </div>
+    <div class="background-white">
+      <div class="container" id="skills">
+        <h2>Skills</h2>
+
+        <h3>Languages and Frameworks</h3>
+          <div class="col-md-6">
+            <ul class="no-bullets">
+              <li>Java
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Javascript
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>C
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Python
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Typescript
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>NodeJs
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="no-bullets">
+              <li>Angular 4
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>React-Native
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>SparkJava
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Flask
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Django
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>SQL
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        <h3>Tools and Libraries</h3>
+          <div class="col-md-6">
+            <ul class="no-bullets">
+              <li>Git
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>MongoDB
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Docker
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="no-bullets">
+              <li>Command Line
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Atom Text Editor
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+              <li>Heroku
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        <h3>Miscellaneous</h3>
+      </div>
+    </div>
+    <div class="container" id="education">
+        <h2>Education</h2>
+        <h3>Formal</h3>
+        <div class="portfolio-element">
+            <span class="project-info">
+              <div class="portfolio-element-title">
+                <h4 class="portfolio-element-title-blurb">
+                  Rutgers University - New Brunswick, Honors College Class of 2020
+                </h4>
+              </div>
+              <p class="portfolio-element-description">
+                Bachelor of Science - Computer Science, Mathematics
+                <br />
+                Relevant Courses: Data Structures, Computer Architecture, Math Reasoning, Linear Algebra
+                <br />
+                GPA: 4.0/4.0
+              </p>
+            </span>
+        </div>
+
+
+        <div class="portfolio-element">
+            <span class="project-info">
+              <div class="portfolio-element-title">
+                <h4 class="portfolio-element-title-blurb">
+                  West Windsor-Plainsboro High School North Class of 2016
+                </h4>
+              </div>
+              <p class="portfolio-element-description">
+
+                SAT: 2350
+                <br />
+                GPA: 3.86/4.0
+              </p>
+            </span>
+        </div>
+
+        <h3>Informal</h3>
+
+        <div class="portfolio-element">
+            <span class="project-info">
+              <div class="portfolio-element-title">
+                <h4 class="portfolio-element-title-blurb">
+                  Certificate in Machine Learning
+                </h4>
+              </div>
+              <p class="portfolio-element-description">
+                Stanford University through Coursera.org
+                <br />
+                This course taught me how machine learning actually works at the mathematical level. I learned
+the basics of supervised and unsupervised learning, regularization and learning rates, SVMs,
+neural networks, collaborative filtering, and anomaly detection.
+                <br />
+                Winter 2016 - Spring 2017
+              </p>
+            </span>
+        </div>
+
+        <div class="portfolio-element">
+            <span class="project-info">
+              <div class="portfolio-element-title">
+                <h4 class="portfolio-element-title-blurb">
+                  Program in Algorithmic and Combinatorial Thinking
+                </h4>
+              </div>
+              <p class="portfolio-element-description">
+                Princeton University
+                <br />
+                In this summer and fall program, I learned many topics in theoretical computer science,
+                including discrete mathematics, greedy algorithms, dynamic programming, NP-completeness, graph theory, and
+                analysis of time and space complexity.
+                <br />
+                Summer 2015 - Spring 2016
+              </p>
+            </span>
+        </div>
+
+        <div class="portfolio-element">
+            <span class="project-info">
+              <div class="portfolio-element-title">
+                <h4 class="portfolio-element-title-blurb">
+                  Audit - Server Side NodeJs
+                </h4>
+              </div>
+              <p class="portfolio-element-description">
+                Hong Kong University through Coursera.org
+                <br />
+                I used Express, NodeJs, and MongoDB to build server side applications. I learned about
+sessions, cookies, and authentication, as well as PassportJs for different types of authentication
+like JWT or OAuth.
+                <br />
+                March 2017
+              </p>
+            </span>
+        </div>
+
+        <div class="portfolio-element">
+            <span class="project-info">
+              <div class="portfolio-element-title">
+                <h4 class="portfolio-element-title-blurb">
+                  Introduction to Databases
+                </h4>
+              </div>
+              <p class="portfolio-element-description">
+                Stanford Online
+                <br />
+                I learned about relational and JSON
+databases and implemented queries using MySQL, XPath, and XQuery.
+                <br />
+                Fall 2013
+              </p>
+            </span>
+        </div>
+
+    </div>
+    <div class="background-white">
+
+    <div class="container" id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-element">
+          <span class="project-image">
+            <img src="public/images/robota.jpg" />
+          </span>
+          <span class="project-info">
+            <div class="portfolio-element-title">
+              <h3 class="portfolio-element-title-name">
+                Robota
+              </h3>
+              <h4 class="portfolio-element-title-blurb">
+                A robot to assist special needs students in communicating with teachers
+              </h>
+            </div>
+            <p class="portfolio-element-description">
+              Robota uses Clarifai's video analysis tools to recognize when a student is frustrated
+              and then moves over to them to prompt them for an explanation. It then uses IBM Watson's
+              tools to transcribe and analyze the message and uses Nexmo to send a text to the teacher.
+            </p>
+            <h4 class="portfolio-element-footnote">
+              Built and demoed at TechCrunch Disrupt 2017
+            </h4>
+          </span>
+      </div>
+
+      <div class="portfolio-element">
+          <span class="project-image">
+            <img src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/topic_images/2015/amazon-echo-topic.png?itok=AFjNWUEH" />
+          </span>
+          <span class="project-info">
+            <div class="portfolio-element-title">
+              <h3 class="portfolio-element-title-name">
+                Alexa Waiter
+              </h3>
+              <h4 class="portfolio-element-title-blurb">
+                A cross-platform app to make restaurants more efficient
+              </h4>
+            </div>
+            <p class="portfolio-element-description">
+              This project helps restaurants work more efficiently by automating the ordering process. An Alexa skill is used to take orders, and
+              customers can see live updating receipts and orders. Restaurants, on the other side, can see
+              their revenue total or register for this service.
+            </p>
+            <h4 class="portfolio-element-footnote">
+              Built and demoed at HackPrinceton Spring 2017 - Top 10 and Best Financial Hack
+            </h4>
+          </span>
+      </div>
+
+      <div class="portfolio-element">
+          <span class="project-image">
+            <img src="public/images/finish.png" />
+          </span>
+          <span class="project-info">
+            <div class="portfolio-element-title">
+              <h3 class="portfolio-element-title-name">
+                Finish
+              </h3>
+              <h4 class="portfolio-element-title-blurb">
+                A cross-platform app to help people track their habits
+              </h4>
+            </div>
+            <p class="portfolio-element-description">
+              This React Native app tracks people’s habits and sends push notifications daily. It is built with
+a MeteorJs backend that integrates Facebook + Google OAuth and saves habits to a MongoDB
+database.
+            </p>
+            <h4 class="portfolio-element-footnote">
+              Built Fall 2016-present, on iOS app store
+            </h4>
+          </span>
+      </div>
+
+
+      <div class="portfolio-element">
+          <span class="project-image">
+            <img src="http://www.iconsdb.com/icons/preview/black/bus-3-xxl.png" />
+          </span>
+          <span class="project-info">
+            <div class="portfolio-element-title">
+              <h3 class="portfolio-element-title-name">
+                Here to There
+              </h3>
+              <h4 class="portfolio-element-title-blurb">
+                A project to help navigate the Rutgers Bus system
+              </h4>
+            </div>
+            <p class="portfolio-element-description">
+              Here to There builds on top of existing Rutgers applications and APIs by integrating geocoding
+and an Alexa skill. Given two locations on Rutgers, it finds the closest bus stop to each location
+and the appropriate bus to take between the two.
+            </p>
+            <h4 class="portfolio-element-footnote">
+              Built at HackRU Fall 2016
+            </h4>
+          </span>
+      </div>
+
+      <div class="portfolio-element">
+          <span class="project-image">
+            <img src="http://www.stickpng.com/assets/thumbs/580b585b2edbce24c47b27af.png" />
+          </span>
+          <span class="project-info">
+            <div class="portfolio-element-title">
+              <h3 class="portfolio-element-title-name">
+                VR Chess
+              </h3>
+              <h4 class="portfolio-element-title-blurb">
+                A multiplayer, voice controlled virtual reality chess game
+              </h4>
+            </div>
+            <p class="portfolio-element-description">
+              This game is an Android app that uses Unity3D and the Google Cardboard to show the user a
+              3D chessboard and interact with a MeteorJs server to connect with an opponent. It accepts
+              voice commands to control pieces on the chessboard (currently incomplete).
+            </p>
+            <h4 class="portfolio-element-footnote">
+              Built at PennApps Winter 2017
+            </h4>
+          </span>
+      </div>
+
+    </div>
+</div>
+        <div class="container" id="contact">
+            <h2>Contact</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li>
+                            <a style="text-decoration:none"  href="mailto:ad.shastri1@gmail.com" target=
+                            "_blank"><span class="icon icon-email"></span>
+                            Email</a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/aditya-shastri" target=
+                            "_blank"><span class="icon icon-linkedin"></span>
+                            Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li>
+                            <a href="https://github.com/adshastri"><i class=
+                            "icon icon-github"></i>Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!--div class="text-center">
+                <a class="twitter-share-button" data-show-count="false" href=
+                "https://twitter.com/intent/tweet?text=Sick%20interactive%20resume!%20sakib.github.io%20@sakib_jalal"
+                rel="sakib">Tweet</a> <script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                </script> <iframe frameborder="0" scrolling="no" src=
+                "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsakib.github.io%3Fref%3Dfacebook&amp;width=120&amp;height=21&amp;colorscheme=dark&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=143175172374579"
+                style=
+                "border:none; overflow:hidden; width:120px; height:21px;"></iframe>
+            </div-->
+    </div>
+    <div class="modal fade" id="upgrade-dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Your browser is out of date</h4>
+                </div>
+                <div class="modal-body">
+                    <p>To get the best possible experience using our site we
+                    recommend that you upgrade to a modern web browser. To
+                    download a newer web browser click on the Upgrade
+                    button.</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="http://browsehappy.com/"
+                    target="_blank">Upgrade</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <style>
+    #contact {
+        padding-bottom: 0;
+    }
+    </style><!-- Bootstrap core JavaScript -->
+    <script src=
+    "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type=
+    "text/javascript">
+    </script>
+    <script src="public/js/scripts.js" type="text/javascript">
+    </script>
+    <script src="public/js/bootstrap.min.js" type="text/javascript">
+    </script> <!-- Google Analytics code -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-65116350-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</body>
 </html>
