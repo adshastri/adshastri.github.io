@@ -162,7 +162,7 @@ hr {
 }
 
 .jumbotron .container h1 {
-    font-size: 120px;
+    font-size: 100px;
     padding-bottom:20px;
     display:inline-block;
     color: #114B5F;
@@ -231,7 +231,7 @@ hr {
     top:102%;
     left:3%;
     width:140px;
-    z-index:999
+    z-index:999;
 }
 
 .navbar .navbar-collapse {
@@ -240,11 +240,11 @@ hr {
 }
 
 .navbar .navbar-nav {
-    float:none
+    float:none;
 }
 
 .navbar-nav {
-    margin:0
+  margin: 0
 }
 
 .navbar .nav > li {
@@ -279,7 +279,7 @@ hr {
 
 .fixed .navbar {
     position:fixed;
-    top:60px;
+    top:80px;
 }
 
 .background-white {
