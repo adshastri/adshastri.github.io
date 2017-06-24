@@ -174,3 +174,5 @@ function searchVersion(pstrDataString) {
     return parseFloat(pstrDataString.substring(lnIndex + this.versionSearchString
         .length + 1));
 }
+
+new Clipboard("#email-copy");

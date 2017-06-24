@@ -52,10 +52,16 @@
               <img src="http://www.freeiconspng.com/uploads/resume-icon-png-10.png" class="info-element"/>
             </a>
           </li>
-          <li data-toggle="tooltip" data-placement="left" title="Email">
-            <a href="mailto:ad.shastri1@gmail.com">
-              <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/12462-200.png" class="info-element"/>
-            </a>
+          <li class="dropdown" data-toggle="tooltip" data-placement="left" title="Email">
+            <img id="email-button" data-toggle="dropdown" src="https://d30y9cdsu7xlg0.cloudfront.net/png/12462-200.png" class="info-element"/>
+            <ul class="dropdown-menu" id="email-menu">
+              <li>
+                <a id="email-copy" data-clipboard-text="ad.shastri1@gmail.com">Copy</a>
+              </li>
+              <li>
+                <a href="mailto:ad.shastri1@gmail.com">Send email</a>
+              </li>
+            </ul>
           </li>
         </ul>
         <div class="overlay"></div><a class="scroll-down" href=
@@ -151,203 +157,36 @@
     <div class="background-white">
       <div class="container" id="skills">
         <h2>Skills</h2>
-
-        <h3>Languages and Frameworks</h3>
-          <div class="col-md-6">
-            <ul class="no-bullets">
-              <li>Java
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Javascript
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>C
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Python
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Typescript
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>NodeJs
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="no-bullets">
-              <li>Angular 4
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>React-Native
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>SparkJava
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Flask
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Django
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>SQL
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-        <h3>Tools and Libraries</h3>
-          <div class="col-md-6">
-            <ul class="no-bullets">
-              <li>Git
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>MongoDB
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Docker
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="no-bullets">
-              <li>Command Line
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Atom Text Editor
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-              <li>Heroku
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </li>
-
-            </ul>
-          </div>
-        <h3>Miscellaneous</h3>
-        <div class="col-md-6">
-          <ul class="no-bullets">
-            <li>English
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                  <span class="sr-only">60% Complete</span>
-                </div>
-              </div>
-            </li>
-            <li>Spanish
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                  <span class="sr-only">60% Complete</span>
-                </div>
-              </div>
-            </li>
-            <li>MS Office
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                  <span class="sr-only">60% Complete</span>
-                </div>
-              </div>
-            </li>
-
+        <div class="col-md-4">
+          <h3>Languages</h3>
+          <ul class="no-bullets skills-list">
+            <li>Java</li>
+            <li>NodeJs/DOM Javascript</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>SPARQL</li>
+            <li>HTML/CSS</li>
           </ul>
         </div>
-        <div class="col-md-6">
-          <ul class="no-bullets">
-            <li>Marathi
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                  <span class="sr-only">60% Complete</span>
-                </div>
-              </div>
-            </li>
-            <li>Hindi
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                  <span class="sr-only">60% Complete</span>
-                </div>
-              </div>
-            </li>
-            <li>Team Management
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                  <span class="sr-only">60% Complete</span>
-                </div>
-              </div>
-            </li>
+        <div class="col-md-4">
+          <h3>Frameworks</h3>
+          <ul class="no-bullets skills-list">
+            <li>Angular 4</li>
+            <li>ExpressJs</li>
+            <li>React-Native</li>
+            <li>Flask</li>
+            <li>Django</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Tools/Other</h3>
+          <ul class="no-bullets skills-list">
+            <li>Git</li>
+            <li>MongoDB</li>
+            <li>RDF/Graph Databases</li>
+            <li>Amazon Web Services</li>
+            <li>Docker</li>
+            <li>Linux/Command Line</li>
           </ul>
         </div>
       </div>
@@ -382,7 +221,7 @@
               </div>
               <p class="portfolio-element-description">
 
-                SAT: 2350
+                SAT: 2350/2400
                 <br />
                 GPA: 3.86/4.0
               </p>
@@ -623,19 +462,10 @@ and the appropriate bus to take between the two.
     "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type=
     "text/javascript">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
     <script src="public/js/scripts.js" type="text/javascript">
     </script>
     <script src="public/js/bootstrap.min.js" type="text/javascript">
     </script> <!-- Google Analytics code -->
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-65116350-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 </body>
 </html>
