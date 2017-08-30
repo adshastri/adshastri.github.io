@@ -3,7 +3,7 @@
 
 html,body {
     color:#114B5F;
-    font-family:'Josefin Sans','Open Sans',sans-serif!important;
+    font-family:'Lato',sans-serif!important;
     height:100%;
 
 }
@@ -14,7 +14,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,strong,b {
-    font-family:'Josefin Sans','Open Sans',sans-serif!important;
+    font-family:'Lato',sans-serif!important;
 }
 
 h1,h4 {
@@ -354,11 +354,21 @@ hr {
 .portfolio-element-title-blurb {
   font-size: 20px;
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .portfolio-element-title-name {
   margin: 0;
+  padding-bottom: 10px;
+}
+
+.portfolio-element-subtitle {
+    font-style: italic;
+}
+
+.portfolio-element-description-full {
+    border-top: 5px;
+    border-bottom: 5px;
 }
 
 .portfolio-element-footnote {
