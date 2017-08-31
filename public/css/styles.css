@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html,body {
-    color:#150811;
+    color:#12172A;
     font-family:'Lato',sans-serif!important;
     height:100%;
 
 }
 
 body {
-    background:#3170A3;
+    background:#FF5A5F;
     font-size:18px;
 }
 
@@ -149,7 +149,6 @@ hr {
     top:28%;
     z-index:4;
     text-align:center;
-    background-color: #EF6461;
 }
 
 .jumbotron .container > * {
@@ -159,14 +158,14 @@ hr {
 
 .jumbotron .container p {
     font-size: 40px;
-    color: black;
+    color: #12172A;
 }
 
 .jumbotron .container h1 {
     font-size: 100px;
     padding-bottom:20px;
     display:inline-block;
-    color: black;
+    color: #12172A;
 }
 
 .info-list{
@@ -284,7 +283,7 @@ hr {
 }
 
 .background-white {
-    background:#90BE6D;
+    background:#06D6A0;
 }
 
 .background-gray {
