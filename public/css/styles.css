@@ -9,7 +9,7 @@ html,body {
 }
 
 body {
-    background:#FF5A5F;
+    background:#74B3CE;
     font-size:18px;
 }
 
@@ -383,7 +383,7 @@ hr {
 
 .project-image {
   float:left;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-right: 20px;
 }
 
